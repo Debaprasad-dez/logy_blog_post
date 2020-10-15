@@ -26,6 +26,15 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+<script type="text/javascript">
+  function Copy() 
+  {
+      //var Url = document.createElement("textarea");
+      urlCopied.innerHTML = window.location.href;
+      //Copied = Url.createTextRange();
+      //Copied.execCommand("Copy");
+  }
+</script>
 <style>
     *{
        font-family: 'Poppins', sans-serif; 
@@ -184,18 +193,21 @@
                   'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 
                   'facebook-share-dialog', 
                   'width=626,height=436'); 
-                return false;" class="col-1 mx-1 py-2 px-2  text-center" style="background: rgba(0, 0, 0, 0.062);border-radius: 15px;" href="">
+                return false;" class="col-2 mx-1 py-2 px-2 text-center" style="background: rgba(0, 0, 0, 0.062);border-radius: 5px;" href="">
                     <i class="fab fa-facebook-f " ></i>
                 </a>
 
-                <a href="https://twitter.com/share" target="_blank" class="col-1 mx-1 py-2 px-2  text-center" style="background: rgba(0, 0, 0, 0.062);border-radius: 15px;" href="">
+                <a href="https://twitter.com/share" target="_blank" class="col-2 mx-1 py-2 px-2  text-center" style="background: rgba(0, 0, 0, 0.062);border-radius: 5px;" href="">
                     <i class="fab fa-twitter"></i>
                 </a>
-                <a class="col-1 mx-1 py-2 px-2  text-center" style="background: rgba(0, 0, 0, 0.062);border-radius: 15px;" href="">
+                <a class="col-2 mx-1 py-2 px-2  text-center" style="background: rgba(0, 0, 0, 0.062);border-radius: 5px;" href="">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
-                <a class="col-1 mx-1 py-2 px-2  text-center" style="background: rgba(0, 0, 0, 0.062);border-radius: 15px;" href="">
-                    <i class="fab fa-reddit-alien"></i>
+                <a class="col-2 mx-1 py-2 px-2  text-center" style="background: rgba(0, 0, 0, 0.062);border-radius: 5px;" href="">
+                  <i class="fab fa-reddit-square"></i>
+                </a>
+                <a class="col-2 mx-1 py-2 px-2  text-center" style="background: rgba(0, 0, 0, 0.062);border-radius: 5px;" href="">
+                  <i class="fab fa-whatsapp"></i>
                 </a>
                
                 
